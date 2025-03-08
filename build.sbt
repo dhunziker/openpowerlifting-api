@@ -7,7 +7,7 @@ ThisBuild / scalaVersion := "3.3.5"
 lazy val root = (project in file("."))
   .settings(
     name := "openpowerlifting-api",
-    idePackagePrefix := Some("com.onrender.openpowerlifting-api"),
+    idePackagePrefix := Some("com.onrender.openpowerliftingapi"),
     libraryDependencies ++= Seq(
       "org.scalatest" %% "scalatest" % scalaTestVersion % Test,
       "org.http4s" %% "http4s-ember-client" % http4sVersion,
